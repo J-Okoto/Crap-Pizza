@@ -1,6 +1,6 @@
-.navi{float: left;
-  }
 
+  .nav-items {
+              margin-right:auto;}
 
 .jumbotron{
   background-image: url('../images/background/background3.jpg');
@@ -17,4 +17,5 @@
   background-repeat: no-repeat;
   color: white;
   text-align: center;
+
 }
