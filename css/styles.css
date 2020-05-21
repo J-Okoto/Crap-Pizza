@@ -23,4 +23,12 @@
 }
 figure img {
     height: 260px;
-    width: 260px;
+    width: 260px;}
+
+    .contacts{
+      background-image: url('../images/background/background4.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      text-align: center;
