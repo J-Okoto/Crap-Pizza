@@ -1,6 +1,8 @@
 
-  .nav-items {
-              margin-right:auto;}
+
+
+              .navi {float: right;}
+
 
 .jumbotron{
   background-image: url('../images/background/background3.jpg');
@@ -19,3 +21,6 @@
   text-align: center;
 
 }
+figure img {
+    height: 260px;
+    width: 260px;
