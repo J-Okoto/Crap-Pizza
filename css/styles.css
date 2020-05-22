@@ -32,3 +32,7 @@ figure img {
       background-repeat: no-repeat;
       color: white;
       text-align: center;
+    }
+
+      .card-footer {text-align: center;
+      color: inherit;;}
