@@ -1,5 +1,5 @@
 
-
+#logo{font-size: 3px;}
 
               .navi {float: right;}
 
@@ -25,14 +25,16 @@ figure img {
     height: 260px;
     width: 260px;}
 
-    .contacts{
+    .card-body{
       background-image: url('../images/background/background4.jpg');
       background-position: center center;
       background-size: cover;
       background-repeat: no-repeat;
-      color: white;
+      color: blue;
       text-align: center;
+      margin-top:30px;
     }
+.email-info{align-items: center;}
 
       .card-footer {text-align: center;
-      color: inherit;;}
+      color: inherit;}
