@@ -16,6 +16,7 @@ ul.nav-items li {display: inline-block;
   background-repeat: no-repeat;
   color: white;
   text-align: center;
+  margin-bottom: -5px;
 
 }
 h1{font-family:'kaushan_scriptregular';
@@ -36,6 +37,19 @@ font-size: 25px;
 }
 
 .order{  font-family: 'comic_neuelight_italic';
+
+}
+
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    
+}
+
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
 }
 
 
@@ -55,4 +69,5 @@ figure img {
 .email-info{align-items: center;}
 
       .card-footer {text-align: center;
-      color: inherit;}
+      color: inherit;
+    padding-top: 20px;}
