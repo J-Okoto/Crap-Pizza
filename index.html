@@ -45,21 +45,21 @@
 
       <div class="row1">
          <div class="menu-overlay">
-             <h1 class="text-center text-inherit" id="menu">Menu</h1>
+             <h1 class="text-center text-inherit " id="menu">Menu:</h1>
               <div class="pizza-menu row text-center">
 
                 <figure class="col-sm-4" >
-                  <img src="images/pizza/2.png" alt="small-pizza" class="animate__animated animate__slideInUp">
+                  <img src="images/pizza/2.png" alt="small-pizza" class="animate__animated animate__backInDown">
                    <figcaption class="text-inherit">Small<br>Ksh. 600</figcaption>
                 </figure>
 
                    <figure class="col-sm-4">
-                     <img src="images/pizza/1.png" alt="medium-pizza" class="animate__animated animate__slideInUp">
+                     <img src="images/pizza/1.png" alt="medium-pizza" class="animate__animated animate__backInUp">
                       <figcaption class="text-inherit">Medium<br>Ksh. 850</figcaption>
                   </figure>
 
                     <figure class="col-sm-4">
-                      <img src="images/pizza/3.png" alt="large-pizza" class="animate__animated animate__slideInUp">
+                      <img src="images/pizza/3.png" alt="large-pizza" class="animate__animated animate__backInDown">
                         <figcaption class="text-inherit">Large<br>Ksh. 1200</figcaption>
                    </figure>
            </div>
@@ -68,10 +68,10 @@
 
    <div class="container-fluid order" id="make-order">
       <div class="order-overlay">
-        <div class="controls-top text-center" id="Order-now">
-          <h2>Order Here</h2>
+        <div class="controls-top text-center animate__animated animate__heartBeat" id="Order-now">
+          <h1>Order Here:</h1>
         </div>
-        <h2>Order your pizza here and we will deliver it to you at your door step!</h2>
+<br>
         <div class="row">
             <div class="col-sm-5">
               <form action="">
@@ -113,18 +113,17 @@
                     <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
                   </div>
                   <br><br>
-                <button type="submit" class="btn btn-orange proceed">Proceed</button>
+                <button type="submit" class="btn bg-info proceed">Proceed</button>
 
               </form>
             </div>
             <div class="col-sm-7">
-              <div id="information">
-                <p>Your order will be processed and delivered within one hour of placing.</p>
-                <p>Make sure you have the total amout for the order during order delivery delivery.</p>
-                <p>Incase of any comment of complaint, Please reach out to us as fast as possible.</p>
-                <p id="regards">Regards, Management</p>
+              <div id="information animate_animated animate__zoomIn">
+                <p1>Your order will be processed and delivered within one hour of order placing.</p>
+                <p1>Incase of order delay, Please reach out to us through the telephone contacts .</p>
+                <p1 id="regards">Regards, Management</p>
               </div>
-              <div class="choise">
+              <div class="choise animate_animated animate__zoomIn">
                 <h2>Your Order is:</h2>
                 <div id="your-orders">
                   <table class="table table-sm  pizzatable">
@@ -147,14 +146,14 @@
                       </tr>
                     </tbody>
                   </table>
-                  <p id="pizzatotal"></p>
-                  <p id="totalbill"></p>
-                  <p id="addedprice">Delivery will cost sh. 150</p>
-                  <p id="finallmessage"></p>
+                  <p1 id="pizzatotal"></p>
+                  <p1 id="totalbill"></p>
+                  <p1 id="addedprice">Delivery will cost sh. 150</p>
+                  <p1 id="finallmessage"></p>
                 </div>
-                <button class="btn btn-orange addPizza">Add Pizza</button>
-                <button class="btn btn-orange" id="checkout">Checkout</button>
-                <button class="btn btn-orange deliver">Home delivery?</button>
+                <button class="btn bg-info addPizza">Add Pizza</button>
+                <button class="btn bg-info" id="checkout">Checkout</button>
+                <button class="btn bg-info  deliver">Home delivery?</button>
               </div>
               <div class="delivery">
                   <form action="">
@@ -162,7 +161,7 @@
                       <input type="text" id="name" class="form-control mb-3" placeholder="Name">
                       <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
                       <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
-                      <button class="btn btn-orange" id="final-order">Place Order</button>
+                      <button class="btn bg-info" id="final-order">Place Order</button>
                     </div>
                   </form>
               </div>
@@ -183,7 +182,7 @@
                         </div>
                     </div>
                     <div class=" email-info text-center">
-                        <button class="btn btn-info click-me" onclick="subscribe();">Subscribe</button>
+                        <button class="btn bg-info" onclick="subscribe();">Subscribe</button>
                     </div>
                 </form>
 
