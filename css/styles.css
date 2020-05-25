@@ -26,29 +26,34 @@ font-size: 25px;
 }
 
 .row1{
-  background-image: url('../images/background/background2.jpg');
+
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  color: black;
   text-align: center;
   font-family: 'comic_neueitalic';
 
 }
 
-.container{  font-family: 'comic_neuelight_italic';
+.order{  font-family: 'comic_neuelight_italic';
+
+background-attachment: fixed;
+  background-image: url("../images/background/background4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+color: white;
+padding-top: 4%;
+
 
 }
 
-#make-order {
-    padding: 20px 50px 20px 50px;
-
-}
 
 .order-overlay {
     height: inherit;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 20px;
 }
 
