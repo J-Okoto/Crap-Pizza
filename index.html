@@ -17,7 +17,7 @@
   <body>
 
       <nav class="navbar navbar-expand{-sm|-md|-lg|-xl}navbar fixed-top navbar navbar-dark" >
-        <img src="images/logo/logo3.png" width="40" height="40"alt="logo" id="logo">
+        <a href="#welcome"><img src="images/logo/logo3.png" width="40" height="40"alt="logo" id="logo"></a>
            <div class="navi">
               <ul class="nav-items">
                <li><a href="#menus">Menu</a></li>
@@ -27,7 +27,7 @@
               </ul>
           </div>
       </nav>
-          <div class="jumbotron"  >
+          <div class="jumbotron" id="welcome" >
 
                    <h1>CRAP PIZZA</h1>
                    <h1>KARIBU</h1>
@@ -35,9 +35,6 @@
                <p>Order your pizza and we wil deliver it to your location.</p>
                <h1 class="text-white text-center"> Call Us </h1>
                 <p class="text-center">+254 710243624</p>
-               <a href="#menus">
-                   <button class="btn bg-info mx-auto d-block menu-btn">Menu</button>
-               </a>
          </div>
 
          <div id="menus"></div>
@@ -119,9 +116,9 @@
             </div>
             <div class="col-sm-7">
               <div id="information animate_animated animate__zoomIn">
-                <p1>Your order will be processed and delivered within one hour of order placing.</p>
-                <p1>Incase of order delay, Please reach out to us through the telephone contacts .</p>
-                <p1 id="regards">Regards, Management</p>
+                <p>Your order will be processed and delivered within one hour of order placing.</p>
+                <p>Incase of order delay, Please reach out to us through the telephone contacts .</p>
+                <p id="regards">Regards, Management</p>
               </div>
               <div class="choise animate_animated animate__zoomIn">
                 <h2>Your Order is:</h2>
@@ -146,10 +143,10 @@
                       </tr>
                     </tbody>
                   </table>
-                  <p1 id="pizzatotal"></p>
-                  <p1 id="totalbill"></p>
-                  <p1 id="addedprice">Delivery will cost sh. 150</p>
-                  <p1 id="finallmessage"></p>
+                  <p id="pizzatotal"></p>
+                  <p id="totalbill"></p>
+                  <p id="addedprice">Delivery will cost sh. 150</p>
+                  <p id="finallmessage"></p>
                 </div>
                 <button class="btn bg-info addPizza">Add Pizza</button>
                 <button class="btn bg-info" id="checkout">Checkout</button>

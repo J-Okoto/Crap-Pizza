@@ -17,7 +17,7 @@ ul.nav-items li {display: inline-block;
   background-repeat: no-repeat;
   color: white;
   text-align: center;
-  margin-bottom: -5px;
+padding-bottom: -20;
 
 }
 h1{font-family:'kaushan_scriptregular';
@@ -30,6 +30,7 @@ font-size: 20px;
 color: inherit;
   text-align: center;
   font-family: 'comic_neueitalic';
+
 }
 
 
@@ -64,6 +65,20 @@ td,th{
 #your-orders{
   color: white;
   font-size: 30px;
+}
+
+.choise{
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.deliver{
+  display: none;
+}
+.delivery{
+  display: none;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .delivery{padding-top: 10px;}
 
