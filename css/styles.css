@@ -36,13 +36,13 @@ font-size: 25px;
 
 }
 
-.order{  font-family: 'comic_neuelight_italic';
+.container{  font-family: 'comic_neuelight_italic';
 
 }
 
-#order-pizza {
+#make-order {
     padding: 20px 50px 20px 50px;
-    
+
 }
 
 .order-overlay {
