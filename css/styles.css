@@ -51,26 +51,32 @@ color: inherit;
 .order-overlay {
     height: inherit;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 20px;
+
 }
 td,th{
   font-size: 20px;
   color: white;
 }
 .choise h2{
-  color:white;
+  color:orange;
   text-align: left;
 }
+.controls-top h1{color: orange;}
 #your-orders{
   color: white;
   font-size: 30px;
+}
+#information p{font-family: 'comic_neuelight_italic',serif;
+font-size: 40px;
 }
 
 .choise{
   display: none;
   padding-left: 2%;
   padding-right: 2%;
+  font-family: 'caveatbold',serif;
 }
 .deliver{
   display: none;
