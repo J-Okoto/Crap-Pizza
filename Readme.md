@@ -2,7 +2,7 @@
 Crap pizza
 
 
-##Check it out
+## Check it out
 
 ## Description:
 
@@ -14,7 +14,7 @@ J-Okoto
 
 ## Screenshot:
 
-![picture](/images/logo/Screenshot.png?raw=true "Title")
+![picture](/images/logo/screenshot.png?raw=true "Title")
 
 ## Setup:
 
