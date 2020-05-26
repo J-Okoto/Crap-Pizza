@@ -1,19 +1,23 @@
-# title
+# Title
 Crap pizza
 
 
 ##Check it out
 
-##Description:
+## Description:
+
 A pizza ordering web application.
 
-##Author:
+## Author:
+
 J-Okoto
 
-##Screenshot:
-![picture](/images/Screenshot.png?raw=true "Title")
+## Screenshot:
 
-##Setup:
+![picture](/images/logo/Screenshot.png?raw=true "Title")
+
+## Setup:
+
 git clone https://github.com/J-Okoto/Crap-Pizza.git or download the zip file
 
 Extract the zip file
@@ -22,9 +26,10 @@ cd project folder
 
 launch the index.html file
 
-##Technologies:
+## Technologies:
 
 HTML5
+
 CSS3
 
 Bootstrap
@@ -33,14 +38,10 @@ Javascript
 
 Jquery
 
-## BDD
 
-|Behavior|input|Output|
------------------------------------------
-|Select flavor|Chicken Tikka|Chiken Tikka|
-|Select size|medium|Medium|
 
-##License:
+## License:
+
 MIT LICENSE © 2020 J-O
 
 
@@ -62,5 +63,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-##Collaborate:
+## Collaborate:
+
 To contribute to Crap-Pizza!, reach me on jtwiceo@gmail.com.
