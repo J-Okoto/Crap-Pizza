@@ -14,7 +14,7 @@ J-Okoto
 
 ## Screenshot:
 
-![picture](/images/logo/screenshot.png?raw=true "Title")
+![picture](/images/screenshot.png?raw=true "Title")
 
 ## Setup:
 
